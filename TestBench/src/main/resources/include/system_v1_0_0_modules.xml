@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AppTest>
+	<forApp>system</forApp>		
+	<version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+	</version>
+	
+	<appPaths>
+		<!-- should be the test module package [ts] followed by the app & version above -->
+		<testModuleURL>ts.system.v1_0_0.</testModuleURL>
+		<testModulePath>src/test/java/ts/</testModulePath>
+	</appPaths>
+	
+	<modules> 		
+		<module>
+			<!--  must match the name of the MODULE exactly -->
+			<name>test</name> 
+			<testSuites>			
+				<testSuite>
+					<!--  must match the name of the TEST SUITE (class) exactly -->
+					<name>Module1</name> 
+					<!-- 
+					Not implemented so testCases do not have to be included. 
+					All TCs in a TS will be run unless @Ignore(d) -->
+					<testCases> 
+						<testName>open</testName>
+						<testName>close</testName>
+						<testName>ignore</testName>
+					</testCases> 		 
+				</testSuite>		
+			<!-- 
+				<testSuite>
+					<name>Module2</name>		
+					<testCases> 
+						<testName>open</testName>
+						<testName>close</testName>
+						<testName>ignore</testName>
+					</testCases> 		 					 
+				</testSuite>  -->		
+			</testSuites>
+		</module>
+		
+  	</modules>
+</AppTest>

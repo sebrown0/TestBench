@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Config>
+	<LogParams>
+		<useLog>true</useLog> <!-- true or false -->
+		<pathType>R</pathType>
+		<outputPath>logs/</outputPath>		
+	</LogParams>
+ 
+	<TestParams>
+		<systemName>system</systemName> <!--  must match the name of the SYSTEM exactly, i.e iPortal -->
+		<baseURL>https://www.dakarsoftware.com/</baseURL>
+		<driver>chrome</driver>
+  		<version>
+  			<major>1</major>
+  			<minor>0</minor>
+  			<build>0</build>
+  		</version>    		
+	</TestParams>
+</Config> 

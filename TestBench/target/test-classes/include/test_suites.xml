@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestSuites>
+	<forApp>dakarsoftware</forApp>		
+	<version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+	</version>
+	    		
+	<suites> 	
+		
+		<suite>
+			<name>login</name>
+			<cases>
+				<case>
+					<name>Log1</name>
+				</case>
+			</cases>
+		</suite>		
+		<suite>
+			<name>navigation</name>
+			<cases>
+				<case>
+					<name>Log1</name>
+				</case>
+			</cases>
+		</suite>
+	</suites>	
+
+</TestSuites>
